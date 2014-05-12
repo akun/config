@@ -3,7 +3,7 @@ VUNDLE_DIR = ~/.vim/bundle/Vundle.vim
 
 install:
 	sudo apt-get install -y ssh
-	sudo apt-get install -y vim
+	sudo apt-get install -y vim ctags
 	sudo apt-get install -y tmux
 	sudo apt-get install -y git
 

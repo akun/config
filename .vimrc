@@ -35,9 +35,12 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'Rykka/riv.vim'
 let g:riv_fold_level = 0
 
+"Plugin 'vim-scripts/ctags.vim'
 Plugin 'vim-scripts/taglist.vim'
 let Tlist_Show_One_File = 1
+let Tlist_Exit_OnlyWindow = 1
 let Tlist_Use_Right_Window = 1
+map <leader>tl :TlistOpen<cr>
 
 call vundle#end()
 filetype plugin indent on
