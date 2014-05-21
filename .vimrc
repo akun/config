@@ -32,6 +32,8 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 
+Plugin 'editorconfig/editorconfig-vim'
+
 Plugin 'Rykka/riv.vim'
 let g:riv_fold_level = 0
 
